@@ -2,19 +2,19 @@ import SwiftUI
 
 struct HeroLabelView: View {
     var body: some View {
-    
-        ForEach(HeroLabelModel.allCases, id: \.rawValue) { key in
+            ForEach(HeroLabelModel.allCases, id: \.rawValue) { key in
+                ZStack {
+                Circle()
+                    .frame(width: 56, height: 56)
+                    .foregroundColor(key.backgroundColor)
 
-            Circle()
-                .frame(width: 56, height: 56)
-                .foregroundColor(key.backgroundColor)
-//            
-//            Image(systemName: key.imageName)
-//                .resizable()
-//                .frame(width: 32, height: 32)
-                 
+                Image(key.imageName)
+                    .resizable()
+                    .frame(width: 32, height: 32)
+                    
+                     
+            }
         }
-    
     }
 }
 

@@ -9,12 +9,10 @@ struct HomeView: View {
             
             HStack(alignment: .center, spacing: 20) {
               HeroLabelView()
-           
             }
         
             Spacer()
-            
-          
+    
         }
     }
 }

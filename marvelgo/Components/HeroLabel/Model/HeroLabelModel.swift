@@ -22,8 +22,8 @@ enum HeroLabelModel: Int, CaseIterable {
         switch self {
         case .hero: return "hero"
         case .villains: return "villain"
-        case .anti_heroes: return "villain"
-        case .alliens: return "villain"
+        case .anti_heroes: return "antihero"
+        case .alliens: return "allien"
         case .humans: return "human"
         }
     }
