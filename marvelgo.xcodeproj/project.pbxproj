@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70F2DCC2857EE0100780BE4 /* HeroLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F2DCB2857EE0100780BE4 /* HeroLabelView.swift */; };
+		E70F2DD02857EEF700780BE4 /* HeroLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F2DCF2857EEF700780BE4 /* HeroLabelModel.swift */; };
 		E75211522856B68C0064C77B /* marvelgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75211512856B68C0064C77B /* marvelgoApp.swift */; };
 		E75211542856B68C0064C77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75211532856B68C0064C77B /* ContentView.swift */; };
 		E75211562856B68D0064C77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75211552856B68D0064C77B /* Assets.xcassets */; };
 		E75211592856B68D0064C77B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75211582856B68D0064C77B /* Preview Assets.xcassets */; };
+		E75211632856B81A0064C77B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75211622856B81A0064C77B /* HomeView.swift */; };
+		E75211662856B8470064C77B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75211652856B8470064C77B /* HeaderView.swift */; };
+		E752116D2856BC180064C77B /* gilroy-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E75211682856BC180064C77B /* gilroy-semibold.ttf */; };
+		E752116E2856BC180064C77B /* gilroy-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E75211692856BC180064C77B /* gilroy-medium.ttf */; };
+		E752116F2856BC180064C77B /* gilroy-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E752116A2856BC180064C77B /* gilroy-regular.ttf */; };
+		E75211702856BC180064C77B /* gilroy-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E752116B2856BC180064C77B /* gilroy-heavy.ttf */; };
+		E75211712856BC180064C77B /* gilroy-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E752116C2856BC180064C77B /* gilroy-bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70F2DCB2857EE0100780BE4 /* HeroLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLabelView.swift; sourceTree = "<group>"; };
+		E70F2DCF2857EEF700780BE4 /* HeroLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLabelModel.swift; sourceTree = "<group>"; };
 		E752114E2856B68C0064C77B /* marvelgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marvelgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75211512856B68C0064C77B /* marvelgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvelgoApp.swift; sourceTree = "<group>"; };
 		E75211532856B68C0064C77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E75211552856B68D0064C77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75211582856B68D0064C77B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E75211622856B81A0064C77B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E75211652856B8470064C77B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E75211682856BC180064C77B /* gilroy-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gilroy-semibold.ttf"; sourceTree = "<group>"; };
+		E75211692856BC180064C77B /* gilroy-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gilroy-medium.ttf"; sourceTree = "<group>"; };
+		E752116A2856BC180064C77B /* gilroy-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gilroy-regular.ttf"; sourceTree = "<group>"; };
+		E752116B2856BC180064C77B /* gilroy-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gilroy-heavy.ttf"; sourceTree = "<group>"; };
+		E752116C2856BC180064C77B /* gilroy-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gilroy-bold.ttf"; sourceTree = "<group>"; };
+		E765B0502857604300899D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70F2DCA2857EDF200780BE4 /* HeroLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E70F2DCE2857EEC100780BE4 /* Model */,
+				E70F2DCD2857EEBB00780BE4 /* Views */,
+			);
+			path = HeroLabel;
+			sourceTree = "<group>";
+		};
+		E70F2DCD2857EEBB00780BE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70F2DCB2857EE0100780BE4 /* HeroLabelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E70F2DCE2857EEC100780BE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E70F2DCF2857EEF700780BE4 /* HeroLabelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E75211452856B68C0064C77B = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +95,13 @@
 		E75211502856B68C0064C77B /* marvelgo */ = {
 			isa = PBXGroup;
 			children = (
+				E765B0502857604300899D2A /* Info.plist */,
+				E752115F2856B7520064C77B /* Components */,
+				E75211602856B7800064C77B /* Home */,
 				E75211512856B68C0064C77B /* marvelgoApp.swift */,
 				E75211532856B68C0064C77B /* ContentView.swift */,
 				E75211552856B68D0064C77B /* Assets.xcassets */,
+				E75211672856BBFD0064C77B /* Fonts */,
 				E75211572856B68D0064C77B /* Preview Content */,
 			);
 			path = marvelgo;
@@ -65,6 +113,51 @@
 				E75211582856B68D0064C77B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E752115F2856B7520064C77B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E70F2DCA2857EDF200780BE4 /* HeroLabel */,
+				E75211642856B8340064C77B /* Header */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E75211602856B7800064C77B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E75211612856B7C40064C77B /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E75211612856B7C40064C77B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E75211622856B81A0064C77B /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E75211642856B8340064C77B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				E75211652856B8470064C77B /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		E75211672856BBFD0064C77B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E752116C2856BC180064C77B /* gilroy-bold.ttf */,
+				E752116B2856BC180064C77B /* gilroy-heavy.ttf */,
+				E75211692856BC180064C77B /* gilroy-medium.ttf */,
+				E752116A2856BC180064C77B /* gilroy-regular.ttf */,
+				E75211682856BC180064C77B /* gilroy-semibold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75211712856BC180064C77B /* gilroy-bold.ttf in Resources */,
+				E752116D2856BC180064C77B /* gilroy-semibold.ttf in Resources */,
+				E752116E2856BC180064C77B /* gilroy-medium.ttf in Resources */,
+				E75211702856BC180064C77B /* gilroy-heavy.ttf in Resources */,
 				E75211592856B68D0064C77B /* Preview Assets.xcassets in Resources */,
 				E75211562856B68D0064C77B /* Assets.xcassets in Resources */,
+				E752116F2856BC180064C77B /* gilroy-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75211632856B81A0064C77B /* HomeView.swift in Sources */,
+				E70F2DD02857EEF700780BE4 /* HeroLabelModel.swift in Sources */,
 				E75211542856B68C0064C77B /* ContentView.swift in Sources */,
 				E75211522856B68C0064C77B /* marvelgoApp.swift in Sources */,
+				E75211662856B8470064C77B /* HeaderView.swift in Sources */,
+				E70F2DCC2857EE0100780BE4 /* HeroLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +372,7 @@
 				DEVELOPMENT_TEAM = 6SQT2L5PL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = marvelgo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +402,7 @@
 				DEVELOPMENT_TEAM = 6SQT2L5PL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = marvelgo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
